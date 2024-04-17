@@ -3,10 +3,11 @@ namespace AvaloniaApplication1.Models;
 public class products
 {
     public int countProd;
-    public string PathImage;
-    public string ProdName;
-    public string ProdDescription;
-    public string ProdManufacturer;
+    public string PathImage { get; set; };
+    public string ProdName { get; set; }
+    public string ProdDescription { get; set; }
+    public int ProdPrice { get; set; }
+    public string ProdManufacturer { get; set; }
     public bool InStock = true;
 
     public products(int countProd, string pathImage, string prodName, string prodDescription, string prodManufacturer)
