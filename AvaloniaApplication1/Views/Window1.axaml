@@ -2,8 +2,34 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:viewModels="clr-namespace:AvaloniaApplication1.ViewModels"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="AvaloniaApplication1.Views.Window1"
-        Title="Window1">
-    Welcome to Avalonia!
+        Title="Window1"
+        x:DataType="viewModels:MainWindowViewModel">
+    
+    <Design.DataContext>
+        <!-- This only sets the DataContext for the previewer in an IDE,
+             to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
+        <viewModels:MainWindowViewModel />
+    </Design.DataContext>
+
+    <Grid ShowGridLines="True" RowDefinitions=".1* .2* .1*" ColumnDefinitions=".1* .2* .1*">
+        <StackPanel Grid.Column="2" Grid.Row="1">
+            <Button Margin="5" Content="Add Product" Background="Transparent" Click="Add_Product"/>
+        </StackPanel>
+        <ListBox Grid.Column="1" Grid.Row="1" Name="ProductListBox" ItemsSource="{Binding ProductsList}">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <Border BorderThickness="1">
+                            <StackPanel>
+                                <TextBlock Text="{Binding ProdName}"></TextBlock>
+                                <TextBlock Text="{Binding ProdPrice}"></TextBlock>
+                                <TextBlock Text="{Binding ProdDescription}"></TextBlock>
+                            </StackPanel>
+                        </Border>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+        </Grid>
 </Window>

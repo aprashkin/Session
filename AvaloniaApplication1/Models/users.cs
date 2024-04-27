@@ -5,11 +5,12 @@ public class users
     private int _count;
     public string FirstName { get; set; }
     public string SecondName { get; set; }
-    public bool IsAdmin = false;
+    public bool IsAdmin { get; set; }
 
-    public users(int count, bool isAdmin)
+    public users(string firstName, string secondName, bool isAdmin)
     {
-        _count = count;
+        FirstName = firstName;
+        SecondName = secondName;
         IsAdmin = isAdmin;
     }
 }

@@ -4,8 +4,11 @@
     <option name="projectPerEditor">
       <map>
         <entry key="AvaloniaApplication1/Views/2nd window.axaml" value="AvaloniaApplication1/AvaloniaApplication1.csproj" />
+        <entry key="AvaloniaApplication1/Views/AddProducrWindow.axaml" value="AvaloniaApplication1/AvaloniaApplication1.csproj" />
         <entry key="AvaloniaApplication1/Views/MainWindow.axaml" value="AvaloniaApplication1/AvaloniaApplication1.csproj" />
         <entry key="AvaloniaApplication1/Views/Window1.axaml" value="AvaloniaApplication1/AvaloniaApplication1.csproj" />
+        <entry key="AvaloniaApplication1/Views/auth.axaml" value="AvaloniaApplication1/AvaloniaApplication1.csproj" />
+        <entry key="AvaloniaApplication1/Views/registration.axaml" value="AvaloniaApplication1/AvaloniaApplication1.csproj" />
       </map>
     </option>
   </component>

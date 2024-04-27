@@ -13,15 +13,18 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AvaloniaApplication1
-build_property.ProjectDir = C:\Users\kristy\RiderProjects\AvaloniaApplication1\AvaloniaApplication1\
+build_property.ProjectDir = C:\Users\prdb\RiderProjects\session\AvaloniaApplication1\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[C:/Users/kristy/RiderProjects/AvaloniaApplication1/AvaloniaApplication1/App.axaml]
+[C:/Users/prdb/RiderProjects/session/AvaloniaApplication1/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/kristy/RiderProjects/AvaloniaApplication1/AvaloniaApplication1/Views/MainWindow.axaml]
+[C:/Users/prdb/RiderProjects/session/AvaloniaApplication1/Views/AddProducrWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/kristy/RiderProjects/AvaloniaApplication1/AvaloniaApplication1/Views/Window1.axaml]
+[C:/Users/prdb/RiderProjects/session/AvaloniaApplication1/Views/auth.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/prdb/RiderProjects/session/AvaloniaApplication1/Views/Window1.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
